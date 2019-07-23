@@ -21,7 +21,7 @@
          target="_blank">html文档</a>
 
       <a id="js_api"
-         href="http://www.w3school.com.cn/html/index.asp"
+         href="http://www.w3school.com.cn/js/index.asp"
          target="_blank">JavaScript文档</a>
     </p>
 
@@ -45,9 +45,11 @@
         <router-link to="/Demo5">组件</router-link>
       </li>
       <li>
-        <router-link to="/Demo6">事件修饰符-指令</router-link>
+        <router-link to="/Demo6">扩展(highlightjs代码高亮展示插件)</router-link>
       </li>
-      <li>课程八</li>
+      <li>
+        <router-link to="/Demo7">生命周期</router-link>
+      </li>
       <li>课程九</li>
       <li>课程十</li>
       <li>课程十一</li>
