@@ -4,7 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import CourseCatalogue from '@/components/CourseCatalogue'
 import Demo3 from '@/components/demo/Demo3'
 import Demo4 from '@/components/demo/Demo4'
-import Demo5 from '@/components/demo/Demo5'
+import Demo5 from '@/components/demo/demo5/Demo5'
 import Demo6 from '@/components/demo/Demo6'
 
 Vue.use(Router)

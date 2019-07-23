@@ -36,13 +36,13 @@
            target="_blank">VUE对象初始化流程初探(博客)</a>
       </li>
       <li>
-        <router-link to="/Demo3">数据绑定-最简单的插值</router-link>
+        <router-link to="/Demo3">声明式插值</router-link>
       </li>
       <li>
-        <router-link to="/Demo4">属性绑定-指令</router-link>
+        <router-link to="/Demo4">指令</router-link>
       </li>
       <li>
-        <router-link to="/Demo5">事件绑定-指令</router-link>
+        <router-link to="/Demo5">组件</router-link>
       </li>
       <li>
         <router-link to="/Demo6">事件修饰符-指令</router-link>

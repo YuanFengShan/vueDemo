@@ -4,20 +4,6 @@
                  to="/CourseCatalogue">返回</router-link>
     <h1>事件修饰符-指令</h1>
     <hr>
-    <p class="title">once修饰符:点击事件只会触发一次</p>
-    <button v-on:click.once="demo1_1">加1</button>
-    <button @click.once="demo1_2">减1</button>
-    <p>当前值:{{demo1_flag}}</p>
-    <hr>
-
-    <p class="title">stop修饰符:阻止事件传播</p>
-    <div id="demo3_div"
-         v-on:mousemove="demo3_update_xy">{{demo3_x}},{{demo3_y}}
-      <div id="demo3_stop_div"
-           v-on:mousemove.stop="">
-        <span>停止</span></div>
-
-    </div>
 
   </div>
 </template>
@@ -54,10 +40,5 @@ h1 {
   height: 100px;
   text-align: center;
   border: 1px solid #333;
-}
-#demo3_stop_div {
-  height: 40px;
-  width: 200px;
-  background-color: red;
 }
 </style>
