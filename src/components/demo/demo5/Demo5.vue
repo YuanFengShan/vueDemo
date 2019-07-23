@@ -6,7 +6,10 @@
     <hr>
     <p class="title">文件方式:局部组件</p>
     <Demo5Item></Demo5Item>
-    <p>注意:局部组件使用顺序:创建组件文件->编写文件->引入文件->声明本页面使用此组件->使用此组件</p>
+    <pre v-highlightjs="sourcecode"><code class="javascript">
+      注意:局部组件使用顺序:创建组件文件->编写文件->引入文件->声明本页面使用此组件->使用此组件
+      </code></pre>
+
   </div>
 </template>
 <script>

@@ -3,6 +3,10 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+// 引入代码高亮展示插件
+import VueHighlightJS from 'vue-highlightjs'
+import 'highlight.js/styles/an-old-hope.css'
+Vue.use(VueHighlightJS)
 
 Vue.config.productionTip = false
 
