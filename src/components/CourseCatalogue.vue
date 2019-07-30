@@ -50,8 +50,12 @@
       <li>
         <router-link to="/Demo7">生命周期</router-link>
       </li>
-      <li>课程九</li>
-      <li>课程十</li>
+      <li>
+        <router-link to="/Demo8">计算属性</router-link>
+      </li>
+      <li>
+        <router-link to="/Demo9">侦听器</router-link>
+      </li>
       <li>课程十一</li>
       <li>课程十二</li>
     </ol>
