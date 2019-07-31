@@ -56,7 +56,9 @@
       <li>
         <router-link to="/Demo9">侦听器</router-link>
       </li>
-      <li>课程十一</li>
+      <li>
+        <router-link to="/Demo10">动态绑定类与样式</router-link>
+      </li>
       <li>课程十二</li>
     </ol>
   </div>
